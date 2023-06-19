@@ -1,3 +1,4 @@
 export interface DeveloperOptionsPlugin {
-  echo(options: { value: string }): Promise<{ value: string }>;
+  isDevelopmentSettingsEnabled(): Promise<{ value: boolean }>;
+  openDeveloperOptions(): Promise<void>;
 }

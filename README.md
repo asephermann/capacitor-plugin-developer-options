@@ -11,9 +11,33 @@ npx cap sync
 
 ## API
 
-<docgen-index></docgen-index>
+<docgen-index>
+
+* [`isDevelopmentSettingsEnabled()`](#isdevelopmentsettingsenabled)
+* [`openDeveloperOptions()`](#opendeveloperoptions)
+
+</docgen-index>
 
 <docgen-api>
-<!-- run docgen to generate docs from the source -->
-<!-- More info: https://github.com/ionic-team/capacitor-docgen -->
+<!--Update the source file JSDoc comments and rerun docgen to update the docs below-->
+
+### isDevelopmentSettingsEnabled()
+
+```typescript
+isDevelopmentSettingsEnabled() => Promise<{ value: boolean; }>
+```
+
+**Returns:** <code>Promise&lt;{ value: boolean; }&gt;</code>
+
+--------------------
+
+
+### openDeveloperOptions()
+
+```typescript
+openDeveloperOptions() => Promise<void>
+```
+
+--------------------
+
 </docgen-api>

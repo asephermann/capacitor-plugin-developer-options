@@ -74,5 +74,8 @@
     "android": {
       "src": "android"
     }
+  },
+  "dependencies": {
+    "docgen": "^0.0.1"
   }
 }
