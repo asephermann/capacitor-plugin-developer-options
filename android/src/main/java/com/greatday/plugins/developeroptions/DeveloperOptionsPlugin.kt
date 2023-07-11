@@ -17,8 +17,10 @@ class DeveloperOptionsPlugin : Plugin() {
 
     @PluginMethod
     fun isDevelopmentSettingsEnabled(call: PluginCall) {
+        val ret = JSObject()
         val result = implementation.isDevelopmentSettingsEnabled(activity)
-        call.resolve(result)
+        ret.put("value", result)
+        call.resolve(ret)
     }
 
     @PluginMethod

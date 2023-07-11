@@ -24,10 +24,10 @@ npx cap sync
 ### isDevelopmentSettingsEnabled()
 
 ```typescript
-isDevelopmentSettingsEnabled() => Promise<boolean>
+isDevelopmentSettingsEnabled() => Promise<{ value: boolean; }>
 ```
 
-**Returns:** <code>Promise&lt;boolean&gt;</code>
+**Returns:** <code>Promise&lt;{ value: boolean; }&gt;</code>
 
 --------------------
 

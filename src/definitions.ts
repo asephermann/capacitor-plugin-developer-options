@@ -1,4 +1,4 @@
 export interface DeveloperOptionsPlugin {
-  isDevelopmentSettingsEnabled(): Promise<boolean>;
+  isDevelopmentSettingsEnabled(): Promise<{ value: boolean }>;
   openDeveloperOptions(): Promise<void>;
 }
